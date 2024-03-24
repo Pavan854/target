@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+        li a:hover{
+            background-color: blueviolet;
+        }
+    </style>
     
 <head>
     <meta charset="UTF-8">
@@ -8,10 +13,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="#home" class="car">home</a>
-    <a href="#service" class="car">service</a>
-    <a href="#loginpage" class="car">login</a>
-    <a href="#contact" class="car">contact</a>
+    <div class="navbar">
+        <div class="logo">
+        
+                
+            <img src="data:image/jpeg;base64,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" alt="cherry">
+            
+        </div>
+        <div>
+            <ul>
+                <li><a href="#Home" class="car">Home</a></li>
+                <li><a href="#Service" class="car">Service</a></li>
+                <li><a href="#Loginpage" class="car">Login</a></li>
+                <li><a href="#Contact" class="car">contact</a></li>
+                <li><a href="#About" class="car">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+<h2 ><marquee behavior="stylesheet" direction="492B9XSTVFW7hbLK5YFCR2eR8eHPBwUxdutcEqTfffT5">HOME PAGE</marquee></h2>
+    
+        
+       
+    
+   
+    
 </body>
 </html>
   

@@ -1,8 +1,50 @@
-h1{
-    color: aqua;
-    background-color: black;
+body{
+    background-color: rgb(189, 115, 115);
 }
-.car{
-    background-color: yellowgreen;
+h2{
+    color: black;
+
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color: burlywood;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+
+
+    
+}
+.rrr{
+    float: right;
+    color: brown;
+}
+.navbar{
+    display: flex;
+    padding-top: 0%;
+    font-size: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(14, 14, 14);
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: antiquewhite;
+    padding-left: 10px;
+}
+.kick{
+    padding: 0%;
+    text-align: center;
+    color: blanchedalmond;
 }
