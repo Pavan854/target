@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation</title>
+</head>
+<body>
+    <form>
+        <label>mobie number</label>
+        <input type="text" pattern="[6-9][0-9]{9}"><br>
+        <label>Name :::::::</label>
+        <input type="text" required minlength="10" maxlength="12"><br>
+        <label>Email :::::: </label>
+        <input type="email" required tabindex="1"><br>
+        <input type="number" value=" otp" required>
+        <input type="submit" value="send otp" title="send otp"><br>
+        <label>country:::::</label>
+        <input type="text" value="india" readonly><br>
+        <label>annual income</label>
+        <input type="number" min="150000" max="1000000"><br>
+        <label>aadhar number </label>
+        <input type="number" placeholder="enter valid aadhar" ><br>
+        <label>Pan card:::::</label>
+        <input type="text" pattern="[A-z]5[0-9]{4}[A-Z]{1}" required><br>
+        <input type="button" value="signup">
+
+    </form>
+
+    
+</body>
+</html>
